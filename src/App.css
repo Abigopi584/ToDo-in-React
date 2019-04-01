@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#header{
+  width:100%;
+  height:120px;
+  background-color: #61dafb;
+  color:#282c34;
+  font-family: "Comic Sans MS";
+  font-size:25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#searchTabGrp{
+  margin-top:3%;
+  width:100%;
+
+}
+
+#todoArrList{
+  margin-top:2%;
+  font-size:17px;
+  text-align: left;
+}
+
+#entryDisplayPage{
+  width:100%;
+  height:170px;
+  border:2px solid #dddddd;
+  display:inline-block;
+}
+
+#entryDisplaypageForm{
+  margin:50px;
+}
+
+.todoitemListnotActive{
+  font-size: 18px;
+  font-weight: bold;
+  color:blue;
+}
+.todoitemListActive [type="checkbox"]{
+  font-size: 18px;
+  font-weight: bold;
+  color:red;
+  text-decoration: line-through;
+
+}
+
+.todoitemList input[type="checkbox"]       {
+  margin-left:-5px;
+}
